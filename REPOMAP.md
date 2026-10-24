@@ -4,8 +4,6 @@
 adapter/trails-run-grid/
 |-- pom.xml                                Single adapter JAR, dependency boundary, and release configuration
 |-- format/java-formatter.xml              Java formatting rules
-|-- DEVELOPMENT.md                         Build, formatting, and Sonatype release instructions
-|-- ARCHITECTURE.md                        Session, browser-action, download, and document responsibilities
 |-- src/
 |   |-- main/java/.../seleniumgrid/         Grid registration, configuration, providers, and resilience
 |   |   |-- browser/                       Session facade, elements, and viewport
