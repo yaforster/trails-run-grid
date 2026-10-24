@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profiles version="23">
+    <profile
+            kind="CodeFormatterProfile"
+            name="Palantir Inspired"
+            version="23">
+
+        <!-- Indentation -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.tabulation.char"
+                value="space"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.tabulation.size"
+                value="4"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.indentation.size"
+                value="4"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.continuation_indentation"
+                value="2"/>
+
+        <!-- Line lengths -->
+        <!-- Force subsequent chained calls onto separate lines, aligned with the first selector.
+             83 = force (1) + indent on column (2) + wrap next per line (80). -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_selector_in_method_invocation"
+                value="83"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.lineSplit"
+                value="120"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.comment.line_length"
+                value="120"/>
+
+        <!-- Braces -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.brace_position_for_type_declaration"
+                value="end_of_line"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.brace_position_for_method_declaration"
+                value="end_of_line"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.brace_position_for_block"
+                value="end_of_line"/>
+
+        <!-- Compact empty blocks -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.keep_method_body_on_one_line"
+                value="one_line_if_empty"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.keep_type_declaration_on_one_line"
+                value="one_line_if_empty"/>
+
+        <!-- Whitespace -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.insert_space_after_comma_in_method_invocation_arguments"
+                value="insert"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.insert_space_before_opening_brace_in_block"
+                value="insert"/>
+        <setting
+                id="org.eclipse.jdt.core.formatter.insert_space_before_opening_paren_in_if"
+                value="insert"/>
+
+        <!-- Keep field declarations together -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.blank_lines_before_field"
+                value="-1"/>
+
+        <!-- Preserve source line structure where appropriate -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.join_wrapped_lines"
+                value="true"/>
+
+    </profile>
+</profiles>
