@@ -26,6 +26,11 @@
                 id="org.eclipse.jdt.core.formatter.alignment_for_selector_in_method_invocation"
                 value="83"/>
 
+        <!-- Force one enum constant per line, including constants with arguments. -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_enum_constants"
+                value="49"/>
+
         <setting
                 id="org.eclipse.jdt.core.formatter.lineSplit"
                 value="120"/>
